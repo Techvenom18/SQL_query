@@ -1,11 +1,11 @@
 -- ============================
--- 📘 Create Database
+-->Create Database
 -- ============================
 CREATE DATABASE DDL_Constraints_DB;
 USE DDL_Constraints_DB;
 
 -- ============================
--- 1️⃣ PRIMARY KEY Constraint
+--> 1.PRIMARY KEY Constraint
 -- ============================
 -- Ensures each row has a unique, non-null identifier
 CREATE TABLE Students (
@@ -21,7 +21,7 @@ INSERT INTO Students VALUES
 (5, 'Aman');
 
 -- ============================
--- 2️⃣ FOREIGN KEY Constraint
+--> 2. FOREIGN KEY Constraint
 -- ============================
 -- Ensures values in a column exist in another table
 CREATE TABLE Departments (
@@ -51,7 +51,7 @@ INSERT INTO Employees VALUES
 (5, 'Tanya', 105);
 
 -- ============================
--- 3️⃣ UNIQUE Constraint
+--> 3️. UNIQUE Constraint
 -- ============================
 -- Ensures all values in a column are unique
 CREATE TABLE Users (
@@ -67,7 +67,7 @@ INSERT INTO Users VALUES
 (5, 'aman@rediffmail.com');
 
 -- ============================
--- 4️⃣ NOT NULL Constraint
+--> 4️. NOT NULL Constraint
 -- ============================
 -- Prevents NULL values in the column
 CREATE TABLE Products (
@@ -83,7 +83,7 @@ INSERT INTO Products VALUES
 (5, 'Printer');
 
 -- ============================
--- 5️⃣ CHECK Constraint
+--> 5️. CHECK Constraint
 -- ============================
 -- Restricts column values based on a condition
 CREATE TABLE Customers (
@@ -99,7 +99,7 @@ INSERT INTO Customers VALUES
 (5, 21);
 
 -- ============================
--- 6️⃣ DEFAULT Constraint
+--> 6️. DEFAULT Constraint
 -- ============================
 -- Sets a default value when none is provided
 CREATE TABLE Orders (
@@ -111,7 +111,7 @@ INSERT INTO Orders (OrderID) VALUES
 (1), (2), (3), (4), (5);
 
 -- ============================
--- 7️⃣ COMBINED Constraints
+--> 7️. COMBINED Constraints
 -- ============================
 -- Uses PRIMARY KEY, NOT NULL, UNIQUE, CHECK together
 CREATE TABLE Accounts (
